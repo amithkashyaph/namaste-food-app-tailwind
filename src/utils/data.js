@@ -1,4 +1,4 @@
-export default restaurants = [
+const restaurants = [
   {
     info: {
       id: "249305",
@@ -12,6 +12,7 @@ export default restaurants = [
       parentId: "547",
       avgRatingString: "4.2",
       totalRatingsString: "5K+",
+      promoted: true,
       sla: {
         deliveryTime: 26,
         lastMileTravel: 3,
@@ -1430,3 +1431,5 @@ export default restaurants = [
     },
   },
 ];
+
+export default restaurants;
